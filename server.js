@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const PORT = 8000;
+const PORT = 8000; // running my proxy on port 8000
 const app = express();
 
 app.use(bodyParser());
