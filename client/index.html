@@ -1,8 +1,21 @@
 <html>
   <head>
     <title>Max's Proxy Server</title>
+    <script src="https://kit.fontawesome.com/e3e04322e2.js" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
   </head>
   <body>
-    Hello World
+    <div id ='side-bar'></div>
+    <div class='main' id='wrapper'>
+      <div id='app'></div>
+      <div id='topFiveSongs'></div>
+      <div id='albumservice'></div>
+    </div>
+    <footer id='control-bar-render'></footer>
+    <script crossorigin src='https://unpkg.com/react@16/umd/react.development.js'></script>
+    <script crossorigin src='https://unpkg.com/react-dom@16/umd/react-dom.development.js'></script>
+    <script src='http://localhost:3000/bundle.js'></script>
+    <script src='http://localhost:3273/bundle.js'></script>
+    <script src='http://localhost:4000/bundle.js'></script>
   </body>
 </html>
