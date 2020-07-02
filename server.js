@@ -3,7 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const Promise = require('bluebird');
 
-const PORT = 8000; // running my proxy on port 8000
+const PORT = process.env.PORT || 8000; // running my proxy on port 8000
 const app = express();
 
 app.use(express.static('client'));
