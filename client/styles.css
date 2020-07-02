@@ -4,6 +4,9 @@ body {
   background-color: #151515;
   background: linear-gradient(#004080 200px, #151515 600px);
 }
+html, body {
+  overscroll-behavior: none;
+}
 .main {
   margin-left: 232px;
 }
